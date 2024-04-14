@@ -1,0 +1,217 @@
+/* LOGIN */
+
+body {
+    font-family: 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background:rgb(152, 170, 170);
+    color: #999;
+    }
+    
+    .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(152, 170, 170);
+    box-shadow: 0 2px 4px rgb(4, 98, 65);
+    }
+    
+    .login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(220, 166, 96);
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow:  0 2px 4px rgb(4, 98, 65);
+    }
+    
+    .login-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(4, 98, 65);
+    margin-bottom: 2rem;
+    }
+    
+    .login-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    
+    .login-form-label{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    }
+    
+    .login-form-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    border:none;
+    border-radius: 4px;
+    background-color: rgb(152, 170, 170);
+    color: #fff;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgb(4, 98, 65);
+    }
+    
+    .login-form-button{
+    display: block;
+    padding: 10px 20px;
+    background-color: rgb(152, 170, 170);
+    color: #fff;
+    box-shadow: 0 2px 4px rgb(4, 98, 65);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+
+   /* PAGINA WED*/
+    
+  
+    @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+p, a, li, h1, h3{
+    font-family: "Tilt Neon", sans-serif;
+
+}
+
+.cabecera{
+    overflow: hidden;
+    background: rgb(152, 170, 170);
+}
+.cabecera img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.cabecera h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(220, 166, 96);
+
+}
+.cabecera h3{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(4, 98, 65);
+}
+
+.menu{
+    overflow: hidden;
+    background-color: rgb(220, 166, 96);
+
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline;
+    
+}
+
+.menu ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+.menu ul li a:hover{
+    color:  rgb(4, 98, 65);
+}
+
+.slider  {
+    width: 100%;
+    height: 650px;
+}
+.iconos{
+    overflow: hidden;
+    text-align: center;
+    color: rgb(4, 98, 65);
+    background-color: rgb(152, 170, 170);
+
+}
+ .iconos p{
+     color: azure;
+     padding: 10px;
+
+
+ }
+.iconos h3{
+    font-size: 30px;
+}
+.iconos div{
+    width: 24%;
+    float: left;
+    overflow: hidden;
+}
+.iconos div img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    
+    
+}
+.publicidad{
+    width: 100%;
+    height:550px;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}    
+
+.ubicacionmap{
+ width: 100%;
+ text-align: center;
+}
+
+.piedepagina{
+    background:  rgb(4, 98, 65);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+.btn-wsp:hover{
+    text-decoration: none;
+    color:green; 
+    background: white;
+}
+  
+
+
+
+    
+
+    
+
+
+ 
+
+
+    
+    
